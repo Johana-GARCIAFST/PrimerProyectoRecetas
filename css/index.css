@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.logo {
+    width: 160px;
+}
+
+.navbar {
+    width: 100vw;
+    height: 15vh;
+    background-color: #F2AB27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.navbar_menu {
+    
+    width: 600px;
+    height: 50px;
+    background-color: rgba(242, 146, 29, 0.326);
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.itemu{
+    padding: 3px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    display:grid;
+    place-content: center center;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.576);
+    
+    
+    
+
+}
+
+.item_menu a {
+    width: auto;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.section_home > {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.imagen_home img {
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+}
+.titulo_img{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 100px;
+    color: black;
+    text-shadow: 3px 3px 3px white,
+    3px 3px 6px white,
+    3px 3px 10px white,
+    3px 3px 25px white;
+
+}
+
+
+.div_p{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 3px 3px 3px white,
+    2px 2px 6px white,
+    2px 2px 10px white,
+    2px 2px 25px white;
+
+}
+.div_p p{
+    font-size: xx-large;
+}
+
+footer{
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:fixed;
+    bottom: 0px;
+}
+footer ul {
+    width: 100vw;
+    height: 8vh;
+    background-color: #F2AB27;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    column-gap: 20px;
+    align-items: center;
+    position: sticky;
+    bottom:0%;
+    left: 0px;
+
+    
+}
+footer li{
+    margin-right: 5%;
+    
+    
+}
+
+i{
+    color: black;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+}
+
+.nosotros_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+}
+.nosotros_main{
+    width: 100vw;
+    height: 78vh;
+    background: linear-gradient(  rgb(249, 162, 0) 70%, rgb(0, 0, 0));
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.section_nosotros{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section_nosotros >p{
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.659);
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+ 
+  
+}
+.section_nosotros img{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.input_contacto{
+    width: 70%;
+}
+
+.twitter_space{
+    width: 20vw;
+  height: 500px;
+
+}
+
+
+.twitter {
+    
+  width: 20vw;
+  height: 490px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+}
+
+
+.section_recetas{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section_recetas img{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+   
+}.section_recetas ul{
+ width: 100vw;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin-top: 10%;
+ 
+}
+.section_recetas ul li{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ font-size: 20px;
+ text-shadow: 2px 2px 2px black;
+ box-shadow: 2px 2px 5px black;
+ background-color: #f89b29;
+}
+
+form{
+    width: 50%;
+    height: 100%;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.popup{
+    width: 100vw;
+    height: 100vh;
+    
+ background-color: rgba(0, 0, 0, 0.852);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ z-index: 2px;
+ position: absolute;
+ left: 0px;
+ top: 0px;
+}
+.popup img{
+    width: 300px;
+    filter: drop-shadow(0px 0px 3px white);
+    
+
+
+}
+
+.popup div{
+    width: 30vw;
+    height: 40vh;
+    display: grid;
+    place-content: center center;
+    color: white;
+
+
+}
+.fondo_body{
+    position: relative;
+}
+ 
+.section_receta_receta{
+
+width: 100vw;
+height: 270px;
+display: flex;
+flex-direction: row;
+}
+.imagen_receta_receta{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+.imagen_receta_receta ul{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-around;
+    
+
+
+}
+.imagen_receta_receta li{
+
+    font-size: 15px;
+    
+}
+.imagen_receta_receta img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 10px;
+
+}
+.section_receta_receta div{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+.section_receta_receta h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section_receta_receta div p{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container_recetas{
+    width: 100vw;
+    height: 80vh;
+    background-color:  rgb(249, 162, 0);
+
+}
+.section_preparacion{
+    width: 100%;
+    height: 280px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#centrar{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 10%;
+}
+
+h3{
+    margin-top: 20px;
+}
+h3~p{
+    width: 600px;
+}
+
+i{ 
+    color: white;
+    filter: drop-shadow(0px 0px 3px black);
+}
+p{font-size: large;}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+ .botton{
+ width: 200px;
+ height: 30px;
+ margin-top: 20px;
+ background-color: #f89b29;
+ box-shadow: 2px 2px 2px black;
+ color:white;
+ }
+
+.botton:hover{
+
+    background-color: rgba(0, 0, 0, 0.396);
+    color: white;
+}
+a:hover{
+    color: black;
+
+}
+i:hover{
+    color: black;
+}
+iframe{
+    box-shadow: 2px 2px 5px black;
+}
