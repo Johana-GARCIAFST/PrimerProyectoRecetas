@@ -1,0 +1,343 @@
+body{
+    background: url(../img/Diseño\ sin\ título\ \(16\).png);
+}
+.Container{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 30%;
+    height: 80%;
+}
+.descripcion h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6),
+    4px 4px 4px rgba(0,0,0,0.6);
+}
+.descripcion p{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+    margin: 40px 0px 40px 15px;
+    line-height: 40px;
+    text-shadow: 2px 2px 0px black;
+}
+.containerCuaderno{
+    width: 70%;
+    height: 80%;
+    background-image: url(../img/Diseño\ sin\ título\ \(17\).png);
+    background-size: 100vw 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+    
+.paginaUno{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dificultad {
+    width: 100%;
+    height: 50%;
+}
+.dificultad ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.dificultad li{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+    margin: 10px 0px 10px 110px;
+}
+.dificultad i{
+    font-size: 15px;
+}
+.ingredientes{
+    width: 100%;
+    height: 50%;
+   
+
+}
+.ingredientes h2{
+    margin: 10px 0px 10px 110px;
+
+}
+.ingredientes li{
+    margin: 10px 0px 10px 110px; 
+}
+.ingredientesChicha{
+    width: 100%;
+    height: 50%;
+    }
+    .ingredientesChicha h2{
+        margin: 0px 0px 0px 110px;
+    
+    }
+    .ingredientesChicha li{
+        margin: 0px 0px 0px 110px; 
+    }
+
+
+
+.paginaDos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foto img{
+    width: 220px;
+    height: 150px;
+}
+.tequeño img{
+    width: 240px;
+    height: 200px;
+    margin: 190px 0px 0px 20px;
+}
+.preparacion{
+    width: 100%;
+    height: 50%;
+}
+.preparacion h2{
+    margin: 10px 0px 10px 70px; 
+
+
+}
+.preparacion p{
+    text-align: justify;
+    width: 60%;
+    font-size: 12px;
+    margin: 0px 0px 0px 70px; 
+}
+header{
+    width: 100%;
+    height: 20vh;
+
+    }
+    main{
+        width: 100%;
+        height: 70vh;
+    }
+    footer{
+        width: 100%;
+        height: 10vh;
+    }
+
+@media screen and (max-width: 679px) {
+
+    header{
+    width: 100%;
+    height: 20vh;
+
+    }
+    main{
+        width: 100%;
+        height: 70vh;
+    }
+    footer{
+        width: 100%;
+        height: 10vh;
+    }
+    .Container{
+        flex-direction: column;
+       
+    }
+    .descripcion{
+        width: 90%;
+        height: 30%;
+    }
+    .descripcion h1{
+        margin-top: 40px;
+        font-size: 25px;
+       
+    }
+    .descripcion p{
+        font-size: 16px;
+        margin: 10px 0px 10px 5px;
+        line-height: 30px;
+    }
+    .containerCuaderno{
+        width: 90%;
+        height: 70%;
+        background-image: url(../img/Diseño\ sin\ título\ \(17\).png);
+        background-size: 100vh 100vw;
+        background-repeat: no-repeat;
+      
+    }
+  
+    .dificultad ul{
+    
+        margin: 60px 0px 0px 15px;
+ 
+    
+    }
+    .dificultad li{
+        font-size: 10px;
+        margin: 10px 0px;
+    }
+    .dificultad i{
+        font-size: 10px;
+    }
+    
+    
+    .ingredientes h2{
+        margin: 10px 0px 0px 15px;
+        font-size: 12px;
+    
+    }
+    .ingredientes li{
+        margin: 10px 0px 0px 15px;
+        font-size: 11px;
+    }
+    .ingredientesChicha{
+        width: 100%;
+        height: 50%;
+        }
+        .ingredientesChicha h2{
+            margin: 0px 0px 0px 110px;
+        
+        }
+        .ingredientesChicha li{
+            margin: 0px 0px 0px 110px; 
+        }
+        .foto{
+            width: 100%;
+            height: 35%;
+           
+        }
+        .foto img{
+            width: 140px;
+            height: 60px;
+            margin: 130px 0px 0px 20px;
+        }
+        .preparacion{
+            width: 100%;
+            height: 65%;
+            margin-top: 20px;
+        }
+        .preparacion h2{
+            margin: 5px 0px 10px 25px; 
+            font-size: 12px;
+        
+        
+        }
+        .preparacion p{
+            width: 80%;
+            font-size: 8.5px;
+            margin: 0px 0px 0px 25px;
+        } 
+
+    
+}
+
+@media screen and (min-width: 680px) and (max-width:900px) {
+    .Container{
+        height: 78vh;
+        flex-direction: column;
+       
+    }
+    .descripcion{
+        width: 90%;
+        height: 30%;
+    }
+    .descripcion h1{
+        margin-top: 40px;
+        font-size: 40px;
+       
+    }
+    .descripcion p{
+        font-size: 25px;
+        margin: 10px 0px 10px 5px;
+        line-height: 30px;
+    }
+    .containerCuaderno{
+        width: 90%;
+        height: 70%;
+        background-image: url(../img/Diseño\ sin\ título\ \(17\).png);
+        background-size: 100vh 100vw;
+        background-repeat: no-repeat;
+      
+    }
+  
+    .dificultad ul{
+    
+        margin: 30px 0px 0px 60px;
+ 
+    
+    }
+    .dificultad li{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+    .dificultad i{
+        font-size: 14px;
+    }
+    
+    
+    .ingredientes h2{
+        margin: 10px 0px 0px 60px;
+        font-size: 18px;
+    
+    }
+    .ingredientes li{
+        margin: 4px 0px 0px 60px;
+        font-size: 14px;
+    }
+    
+        .foto{
+            width: 100%;
+            height: 35%;
+            margin: 20px 10px 0px 0px;
+           
+        }
+        .foto img{
+            width: 250px;
+            height: 130px;
+            /* margin: 0px 0px 0px 0px; */
+        }
+     
+        .preparacion{
+            width: 100%;
+            height: 65%;
+            margin-top: 40px;
+        }
+        .preparacion h2{
+            margin: 5px 0px 10px 30px; 
+            font-size: 16px;
+        
+        
+        }
+        .preparacion p{
+            font-size: 13px;
+            margin: 0px 0px 0px 40px;
+        } 
+    }
